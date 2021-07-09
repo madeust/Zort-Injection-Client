@@ -1,0 +1,42 @@
+[20:36:30] [main/INFO]: --- Son Oyuncu Minecraft Launcher ---
+[20:36:30] [main/INFO]: Java Version: 16.0.1 x64
+[20:36:30] [main/INFO]: Konsol mesajlarını kullanmak için filtre ekleniyor...
+[20:36:30] [main/INFO]: Konsol mesajlarını kullanmak için filtre eklendi.
+[20:36:30] [main/INFO]: Kullanıcı arayüzü menajerleri ayarlanıyor ve yükleniyor...
+[20:36:30] [main/INFO]: AmsiPro-Bold isimli font yüklendi.
+[20:36:30] [main/INFO]: AmsiPro-Italic isimli font yüklendi.
+[20:36:30] [main/INFO]: AmsiPro-Light isimli font yüklendi.
+[20:36:30] [main/INFO]: AmsiPro-LightItalic isimli font yüklendi.
+[20:36:30] [main/INFO]: AmsiPro-SemiBold isimli font yüklendi.
+[20:36:30] [main/INFO]: AmsiPro-Ultra isimli font yüklendi.
+[20:36:30] [main/INFO]: Kullanıcı arayüzü menajerleri ayarlandı ve yüklendi.
+[20:36:30] [main/INFO]: Uygulama klasörleri oluşturuluyor...
+[20:36:30] [main/INFO]: Launcher konfigürasyonu yükleniyor...
+[20:36:31] [main/INFO]: ConfMan | Relisted 1 versions.
+[20:36:31] [main/INFO]: İnternet bağlantısı kontrol ediliyor...
+[20:36:31] [main/INFO]: Minecraft versiyonları kontrol ediliyor...
+[20:36:31] [main/INFO]: 586 adet Minecraft versiyonu bulundu.
+[20:36:31] [main/INFO]: Launcher profili yükleniyor...
+[20:36:31] [main/INFO]: Profil uyumluluğu kontrol ediliyor...
+[20:36:31] [main/INFO]: Profil şu anki Launcher versiyonu ile uyumlu.
+[20:36:31] [main/INFO]: Launcher profili yüklendi.
+[20:36:31] [main/INFO]: Eski Native kütüphaneler siliniyor...
+[20:36:31] [main/INFO]: Eski Native kütüphaneler silindi.
+[20:36:31] [main/INFO]: Launcher modül menajeri tanımlanıyor...
+[20:36:31] [main/INFO]: Launcher modül menajeri tanımlandı. Modüller başlatılıyor...
+[20:36:31] [main/WARN]: Bir hata oluştu!
+java.lang.reflect.InaccessibleObjectException: Unable to make field static java.util.Hashtable java.net.URL.handlers accessible: module java.base does not "opens java.net" to unnamed module @173ed316
+	at java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297) ~[?:?]
+	at java.lang.reflect.Field.checkCanSetAccessible(Field.java:177) ~[?:?]
+	at java.lang.reflect.Field.setAccessible(Field.java:171) ~[?:?]
+	at yk.e(Unknown Source) [launcher.jar:?]
+	at yk.d(Unknown Source) [launcher.jar:?]
+	at mh.run(Unknown Source) [launcher.jar:?]
+	at mo.d(Unknown Source) [launcher.jar:?]
+	at w.<init>(Unknown Source) [launcher.jar:?]
+	at f.main(Unknown Source) [launcher.jar:?]
+[20:36:31] [main/INFO]: Launcher modülleri başlatıldı.
+[20:36:31] [main/INFO]: Kullanıcı arayüzü açılıyor...
+[20:36:32] [main/INFO]: Kullanıcı arayüzü arka planda açılacak.
+[20:36:32] [main/INFO]: Launcher başarıyla çalıştırıldı.
